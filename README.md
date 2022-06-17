@@ -53,6 +53,14 @@ curl -X POST -H "Content-Type: application/json" -d '{"key": "value"}' http://lo
 
 ## Разное
 
+### whereis
+Позволяет узнать где лежит утилита (бинарник)
+<br>
+Пример работы:
+```shell
+whereis docker-compose
+```
+
 ### grep
 Позволяет фильтровать строки при помощи регулярных выражений.
 <br>
