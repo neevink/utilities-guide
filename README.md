@@ -165,3 +165,17 @@ export MY_VARIABLE=12345
 id root
 ```
 
+
+### deb-packages
+Bump chngelog version
+Install dch (debian chengelog)
+```
+apt-get install devscripts
+```
+After that run:
+```
+dch -U
+```
+
+
+
